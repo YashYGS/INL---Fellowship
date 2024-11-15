@@ -448,21 +448,7 @@ def mask_options(request):
                 output_file_path = '/home/ysubrama/INLwebapp2/app2/maskOutput.csv'
                 # Load the default dataset
                 default_dataset = pd.read_csv(default_dataset_path)
-
-                # Generate a random dataset of shape (7, 50)
-                random_dataset = np.random.rand(7, 7)
-
-               # Multiply the default dataset with the random dataset (excluding the first column)
-                output = np.matmul(default_dataset.iloc[:, 1:].to_numpy(), random_dataset)
-
-                # Create a DataFrame from the output numpy array
-                output_df = pd.DataFrame(output)
-
-                 # Add the 'time' column in front of the output data
-                output_df.insert(0, 'time', range(len(output_df)))
-
-                # Save the output as a CSV file
-                output_df.to_csv(output_file_path, index=False)
+                # THIS PART OF CODE CANNOT BE DISCLOSED #
 
                 # Check if the output file was created successfully
                 if os.path.exists(output_file_path):
@@ -480,23 +466,7 @@ def mask_options(request):
                 default_dataset_path = r'default.csv'
                 output_file_path = '/home/ysubrama/INLwebapp2/app2/maskOutput.csv'
 
-                # Load the default dataset
-                default_dataset = pd.read_csv(default_dataset_path)
-
-                # Generate a random dataset of shape (7, 7)
-                random_dataset = np.random.rand(7, 50)
-
-                # Multiply the default dataset with the random dataset (excluding the first column)
-                output = np.matmul(default_dataset.iloc[:, 1:].to_numpy(), random_dataset)
-
-                # Create a DataFrame from the output numpy array
-                output_df = pd.DataFrame(output)
-
-                 # Add the 'time' column in front of the output data
-                output_df.insert(0, 'time', range(len(output_df)))
-
-                # Save the output as a CSV file
-                output_df.to_csv(output_file_path, index=False)
+                # THIS PART OF CODE CANNOT BE DISCLOSED #
 
                 # Check if the output file was created successfully
                 if os.path.exists(output_file_path):
