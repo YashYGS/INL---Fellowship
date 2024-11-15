@@ -1,4 +1,5 @@
-Summer Undergraduate Research Fellowship (SURF), Purdue – ML Algorithm and Software Developer 
+Summer Undergraduate Research Fellowship (SURF), Purdue – ML Algorithm and Software Developer
+
 The following is more context to this project
 - Developed an interactive masking and training web application for Idaho National Labs, and integrated ML algorithms into the application that converts sensitive nuclear data into secure data for researchers to collaborate on, to ensure secure AI/ML research in the nuclear domain.  
 - Used Python Django framework for the web interface, developed multiple pages and used ML libraries such as Sklearn, Numpy for the embedded masking and training algorithms. Focused on data privacy and security through ML models. 
